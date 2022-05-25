@@ -1,2 +1,2 @@
 #!/bin/bash
-cp .rwd *.html ../
+cp -n *.html ../
