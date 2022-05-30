@@ -1,2 +1,2 @@
 #!/bin/bash
-echo pr | tr Ac Ze
+echo grep | tr Ac Ze
