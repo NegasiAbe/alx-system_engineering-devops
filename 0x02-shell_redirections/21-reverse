@@ -1,2 +1,2 @@
 #!/bin/bash
-echo   Reverse | rev
+perl -ne 'chomp;print scalar reverse;'
