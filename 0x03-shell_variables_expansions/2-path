@@ -1,1 +1,2 @@
 #!/bin/bash
+$nano ~/.bashrc export PATH="$HOME/action:$PATH" | $source ~/.bashrc
