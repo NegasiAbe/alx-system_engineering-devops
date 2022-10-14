@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Does the following:
+
 terminator() {
   rm /var/run/holbertonscript.pid
   exit
