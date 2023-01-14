@@ -37,13 +37,13 @@ frontend  Negasi-frontend-http
         bind *:80
         mode http
 	http-request set-header X-Forwarded-Proto http
-        default_backend ehoneah-backend
+        default_backend Negasi-backend
 
 frontend Negasi-frontend-https
-	bind *:443 ssl crt /etc/haproxy/certs/www.ehoneah.tech.pem
+	bind *:443 ssl crt /etc/haproxy/certs/www.Negasi.tech.pem
 	http-request set-header X-Forwarded-Proto https
 	http-request redirect scheme https code 301 unless { ssl_fc }
-	default_backend ehoneah-backend
+	default_backend Negasi-backend
 
 backend Negasi-backend
         balance roundrobin
