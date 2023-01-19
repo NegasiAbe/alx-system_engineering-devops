@@ -20,4 +20,3 @@ SERVER_CONFIG=\
 		rewrite ^ https://sketchfab.com/bluepeno/models permanent;
 	}
 }"
-service nginx restart
