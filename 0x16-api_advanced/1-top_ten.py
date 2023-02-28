@@ -10,7 +10,7 @@ def top_ten(subreddit):
         "User-Agent": "0x16-api_advanced:project:\
 v1.0.0 (by /u/Negasi_Abebe)"
     }
-   params = {
+    params = {
         "limit": 10
     }
     response = requests.get(url, headers=headers, params=params,
@@ -20,3 +20,4 @@ v1.0.0 (by /u/Negasi_Abebe)"
         return
     results = response.json().get("data")
     [print(c.get("data").get("title")) for c in results.get("children")]
+
