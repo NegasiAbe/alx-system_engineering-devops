@@ -12,6 +12,7 @@ Root Cause: The error report shows that the issue was caused by a memory leak in
 - 7:10 AM: Misleading investigation - The team initially assumed the issue was with the website's server and started debugging that, but it was not the root cause.
 - 7:12 AM: Up reporting - The team reported the issue to the web Admensitrator  after realizing it was memory issue.
 - 7:15 AM: Resolution - the issue by increasing the server's memory allocation and optimizing the code to reduce memory usage.
+
 **Root cause and resolution**
 The root cause of the issue was a memory leak in the web application's code, which was causing the server to run out of memory and crash. The website administrator was able to resolve the issue by increasing the server's memory allocation and optimizing the code to reduce memory usage.
 
